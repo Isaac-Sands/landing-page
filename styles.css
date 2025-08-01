@@ -63,3 +63,36 @@ p {
     border-radius: 10px;
     font-weight: 600;
 }
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.mid-page {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 48px;
+}
+
+.info-pair {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.square-img {
+    height: 240px;
+    width: 240px;
+    border: 8px solid #3882F6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info-text {
+    text-align: center;
+}
