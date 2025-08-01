@@ -10,6 +10,20 @@ h1 {
     color: #F9FAF8;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    padding-right: 48px;
+}
+
+img {
+    width: 720px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
 .hero,
 .top-page {
     background-color: #1F2937;
@@ -18,8 +32,34 @@ h1 {
 .hero {
     display: flex;
     justify-content: space-between;
+    padding: 24px 200px;
 }
 
 .top-page {
     color: #F9FAF8;
+    display: flex;
+    padding: 200px;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-links {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-button {
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 10px;
+    font-weight: 600;
 }
