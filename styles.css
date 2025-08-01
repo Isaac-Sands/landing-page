@@ -25,7 +25,8 @@ p {
 }
 
 .hero,
-.top-page {
+.top-page,
+.footer {
     background-color: #1F2937;
 }
 
@@ -95,4 +96,29 @@ p {
 
 .info-text {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-body {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0px 240px;
+    margin-top: 100px;
+}
+
+.quote-author {
+    font-weight: 900;
+    padding: 0px 340px;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
 }
