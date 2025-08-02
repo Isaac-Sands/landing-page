@@ -82,7 +82,7 @@ nav {
     gap: 48px;
 }
 
-.info-pair {
+figure {
     display: flex;
     flex-direction: column;
     width: 240px;
@@ -94,10 +94,6 @@ nav {
     border: 8px solid #3882F6;
     border-radius: 10px;
     overflow: hidden;
-}
-
-.info-text {
-    text-align: center;
 }
 
 blockquote {
