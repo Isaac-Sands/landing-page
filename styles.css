@@ -17,6 +17,20 @@ h1 {
     color: var(--colour-text-light);
 }
 
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3 {
+    flex-basis: 100%;
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: var(--colour-text-light);
@@ -31,13 +45,13 @@ p {
     margin-bottom: 10px;
 }
 
-.hero,
+header,
 .top-page,
-.footer {
-    background-color: var(--colour-bg-dark-blue);
+footer {
+    background-color: var(--colour-bg-dark-blue)
 }
 
-.hero {
+header {
     display: flex;
     justify-content: space-between;
     padding: 24px 200px;
@@ -51,12 +65,7 @@ p {
     gap: 24px;
 }
 
-.title {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.top-links {
+nav {
     font-size: 18px;
     display: flex;
     justify-content: space-between;
@@ -72,22 +81,15 @@ p {
     font-weight: 600;
 }
 
-.info-header {
-    display: flex;
-    justify-content: center;
-    font-size: 36px;
-    color: var(--colour-bg-dark-blue);
-    font-weight: 900;
-}
-
 .mid-page {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 24px;
     gap: 48px;
 }
 
-.info-pair {
+figure {
     display: flex;
     flex-direction: column;
     width: 240px;
@@ -105,8 +107,9 @@ p {
     text-align: center;
 }
 
-.quote {
-    background-color: var(--colour-bg-grey);
+blockquote {
+    margin: 0;
+    background-color: var(--colour-bg-grey)
 }
 
 .quote-body {
@@ -141,7 +144,7 @@ p {
 }
 
 .call-text {
-    color:var(--colour-text-light);
+    color: var(--colour-text-light);
     font-size: 18px;
 }
 
@@ -151,7 +154,7 @@ p {
 }
 
 .call-button {
-    color:var(--colour-text-light);
+    color: var(--colour-text-light);
     font-size: 18px;
     background-color: var(--colour-primary-blue);
     border: 2px solid white;
