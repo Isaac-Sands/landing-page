@@ -10,6 +10,11 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
 a {
     text-decoration: none;
     color: #F9FAF8;
@@ -42,11 +47,6 @@ header {
     padding: 200px;
     justify-content: space-between;
     gap: 24px;
-}
-
-.title {
-    font-size: 48px;
-    font-weight: 900;
 }
 
 nav {
