@@ -1,3 +1,10 @@
+html {
+    --colour-bg-dark-blue: #1F2937;
+    --colour-bg-grey: #E5E7EB;;
+    --colour-text-light: #F9FAF8;
+    --colour-primary-blue: #3882F6;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -7,12 +14,12 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #F9FAF8;
+    color: var(--colour-text-light);
 }
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: var(--colour-text-light);
     padding-right: 48px;
 }
 
@@ -27,7 +34,7 @@ p {
 .hero,
 .top-page,
 .footer {
-    background-color: #1F2937;
+    background-color: var(--colour-bg-dark-blue);
 }
 
 .hero {
@@ -37,7 +44,7 @@ p {
 }
 
 .top-page {
-    color: #F9FAF8;
+    color: var(--colour-text-light);
     display: flex;
     padding: 200px;
     justify-content: space-between;
@@ -57,8 +64,8 @@ p {
 }
 
 .top-button {
-    color:#F9FAF8;
-    background-color: #3882F6;
+    color:var(--colour-text-light);
+    background-color: var(--colour-primary-blue);
     border: none;
     padding: 8px 32px;
     border-radius: 10px;
@@ -69,7 +76,7 @@ p {
     display: flex;
     justify-content: center;
     font-size: 36px;
-    color: #1F2937;
+    color: var(--colour-bg-dark-blue);
     font-weight: 900;
 }
 
@@ -89,7 +96,7 @@ p {
 .square-img {
     height: 240px;
     width: 240px;
-    border: 8px solid #3882F6;
+    border: 8px solid var(--colour-primary-blue);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -99,13 +106,13 @@ p {
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: var(--colour-bg-grey);
 }
 
 .quote-body {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: var(--colour-bg-dark-blue);
     padding: 0px 400px;
     margin-top: 100px;
 }
@@ -118,14 +125,14 @@ p {
 }
 
 .footer {
-    color: #F9FAF8;
+    color: var(--colour-text-light);
     text-align: center;
     padding: 24px;
 }
 
 .call {
     display: flex;
-    background-color: #3882F6;
+    background-color: var(--colour-primary-blue);
     border-radius: 10px;
     margin: 100px 200px;
     padding: 48px 300px;
@@ -134,7 +141,7 @@ p {
 }
 
 .call-text {
-    color:#F9FAF8;
+    color:var(--colour-text-light);
     font-size: 18px;
 }
 
@@ -144,9 +151,9 @@ p {
 }
 
 .call-button {
-    color:#F9FAF8;
+    color:var(--colour-text-light);
     font-size: 18px;
-    background-color: #3882F6;
+    background-color: var(--colour-primary-blue);
     border: 2px solid white;
     padding: 8px 64px;
     border-radius: 10px;
