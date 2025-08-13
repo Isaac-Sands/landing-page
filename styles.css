@@ -1,19 +1,20 @@
 html {
-    --colour-bg-dark-blue: #1F2937;
-    --colour-bg-grey: #E5E7EB;;
-    --colour-text-light: #F9FAF8;
-    --colour-primary-blue: #3882F6;
+    --colour-bg-dark-blue: #1f2937;
+    --colour-bg-grey: #e5e7eb;
+    --colour-text-light: #f9faf8;
+    --colour-primary-blue: #3882f6;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--colour-text-light);
 }
 
@@ -26,7 +27,7 @@ h3 {
     flex-basis: 100%;
     margin: 0;
     font-size: 36px;
-    color: #1F2937;
+    color: #1f2937;
     font-weight: 900;
     text-align: center;
 }
@@ -34,7 +35,7 @@ h3 {
 a {
     text-decoration: none;
     color: var(--colour-text-light);
-    padding-right: 48px;
+    padding-right: 3rem;
 }
 
 img {
@@ -48,13 +49,13 @@ p {
 header,
 .top-page,
 footer {
-    background-color: var(--colour-bg-dark-blue)
+    background-color: var(--colour-bg-dark-blue);
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 24px 200px;
+    padding: 1.5rem 200px;
 }
 
 .top-page {
@@ -62,21 +63,21 @@ header {
     display: flex;
     padding: 200px;
     justify-content: space-between;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 nav {
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .top-button {
-    color:var(--colour-text-light);
+    color: var(--colour-text-light);
     background-color: var(--colour-primary-blue);
     border: none;
-    padding: 8px 32px;
+    padding: 0.5rem 2rem;
     border-radius: 10px;
     font-weight: 600;
 }
@@ -85,8 +86,8 @@ nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 24px;
-    gap: 48px;
+    padding: 1.5rem;
+    gap: 3rem;
 }
 
 figure {
@@ -98,7 +99,7 @@ figure {
 .square-img {
     height: 240px;
     width: 240px;
-    border: 8px solid var(--colour-primary-blue);
+    border: 0.5rem solid var(--colour-primary-blue);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -109,11 +110,11 @@ figure {
 
 blockquote {
     margin: 0;
-    background-color: var(--colour-bg-grey)
+    background-color: var(--colour-bg-grey);
 }
 
 .quote-body {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: italic;
     color: var(--colour-bg-dark-blue);
     padding: 0px 400px;
@@ -122,15 +123,15 @@ blockquote {
 
 .quote-author {
     font-weight: 900;
-    padding: 0px 340px;
+    padding: 0 340px;
     text-align: right;
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
 }
 
 .footer {
     color: var(--colour-text-light);
     text-align: center;
-    padding: 24px;
+    padding: 1.5rem;
 }
 
 .call {
@@ -138,27 +139,27 @@ blockquote {
     background-color: var(--colour-primary-blue);
     border-radius: 10px;
     margin: 100px 200px;
-    padding: 48px 300px;
+    padding: 3rem 300px;
     justify-content: space-between;
     align-items: center;
 }
 
 .call-text {
     color: var(--colour-text-light);
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .call-bold {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .call-button {
     color: var(--colour-text-light);
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: var(--colour-primary-blue);
     border: 2px solid white;
-    padding: 8px 64px;
+    padding: 0.5rem 4rem;
     border-radius: 10px;
     font-weight: 600;
 }
